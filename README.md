@@ -1,17 +1,17 @@
-## 3c.CREATION FOR FILE TRANSFER USING TCP SOCKETS
-## NAME : DHARANISH MS
-## REGISTER NO : 212223240027
+# 3c.CREATION FOR FILE TRANSFER USING TCP SOCKETS
+# NAME : DHARANISH MS
+# REGISTER NO : 212223240027
 
-# AIM
+## AIM
 To write a python program for creating File Transfer using TCP Sockets Links
-# ALGORITHM:
+## ALGORITHM:
 1. Import the necessary python modules.
 2. Create a socket connection using socket module.
 3. Send the message to write into the file to the client file.
 4. Open the file and then send it to the client in byte format.
 5. In the client side receive the file from server and then write the content into it.
-# PROGRAM
-## CLIENT
+## PROGRAM
+### CLIENT
 ```
 import socket
 
@@ -33,7 +33,7 @@ print('Successfully get the file')
 s.close()
 print('connection closed')
 ```
-## SERVER
+### SERVER
 ```
 import socket
 
@@ -62,13 +62,13 @@ while True:
     conn.close()
 
 ```
-# OUTPUT
-## CLIENT
+## OUTPUT
+### CLIENT
 ![CLIENT 3C](https://github.com/MSDharanish-23011819/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/147139454/00f653fa-13db-4e5e-a75f-98fd427df269)
 
-## SERVER
+### SERVER
 ![SERVER 3C](https://github.com/MSDharanish-23011819/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/147139454/cac9787f-2c19-4a19-afc5-449dc73ae375)
 
-# RESULT
+## RESULT
 Thus, the python program for creating File Transfer using TCP Sockets Links was 
 successfully created and executed.
